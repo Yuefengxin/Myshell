@@ -1,2 +1,2 @@
 # Myshell
-An analog terminal running on a web page
+A terminal running on a web page
