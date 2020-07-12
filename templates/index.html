@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Shell</title>
+  <link rel="stylesheet" href="../static/shell.css">
+  <link rel="stylesheet" href="https://unpkg.com/xterm@3.6.0/dist/xterm.css" />
+</head>
+<body>
+<div class="header">
+  <span class="title">Shell</span>&nbsp;&nbsp;&nbsp;
+  <div class="status">
+    <span style="font-size: small;">status: <span style="font-size: small;" id="status">connecting...</span></span>
+  </div>
+</div>
+<div style="width: 100%; height: calc(100% - 50px);" id="terminal"></div>
+
+<!-- xterm -->
+<script src="https://unpkg.com/xterm@3.6.0/dist/xterm.js"></script>
+<script src="https://unpkg.com/xterm@3.6.0/dist/addons/fit/fit.js"></script>
+<script src="https://unpkg.com/xterm@3.6.0/dist/addons/webLinks/webLinks.js"></script>
+<script src="https://unpkg.com/xterm@3.6.0/dist/addons/fullscreen/fullscreen.js"></script>
+<script src="https://unpkg.com/xterm@3.6.0/dist/addons/search/search.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.js"></script>
+
+<script src="../static/shell.js"></script>
+
+</body>
+</html>

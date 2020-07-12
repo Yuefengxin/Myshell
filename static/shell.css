@@ -1,0 +1,28 @@
+body,
+html {
+  background: black;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.title {
+  font-size: 1.4em;
+  color: white;
+}
+
+.status {
+    position: absolute;
+    color: white;
+    margin-right: 10px;
+    right: 0;
+}
+
+#status > span {
+  color: black;
+  padding: 0 10px;
+}
